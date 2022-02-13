@@ -1,0 +1,25 @@
+.love-equation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.operator {
+    font-size:xx-large;
+}
+
+img {
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
