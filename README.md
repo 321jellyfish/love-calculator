@@ -8,8 +8,16 @@ This website is made with:
 - CSS
 - JavaScript
 
+Making this website allowed me to practice using various string and array methods.
 
-Icon attribution:
+I also enjoyed the challenge of coming up with the idea and implementing it from scratch myself. 
+
+In the future I hope to:
+
+- Make the website responsive
+
+I sourced the very cute calculator icon from Flaticon. 
+
 <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Freepik - Flaticon</a>
 
 
