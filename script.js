@@ -55,12 +55,16 @@ function checkCompatibility(){
     let magicNumberArray = matchingLetters.map(x => magicAlphabet[x]);
     console.log(magicNumberArray);
 
-}
+    const initialValue = 0;
+    let sumOfMagicNumberArray = magicNumberArray.reduce(
+        (a, b) => a + b, initialValue);
+    console.log(sumOfMagicNumberArray);
+    
+    //return sumOfMagicNumberArray;
+    if ((sumOfMagicNumberArray % 10 > 0)&&(sumOfMagicNumberArray % 10 < 4)){
+        equationResult.textContent = "100% Perfect match! ❤️";
+    } else {
+        equationResult.textContent = "Not too sure...";
+    }
 
-/*
-        if ((firstName.length === 4)&&(crushName.length === 9)){
-            equationResult.textContent = "100% Perfect match! ❤️";
-        } else {
-            equationResult.textContent = "Not too sure...";
-        }
-    return true;*/
+}
