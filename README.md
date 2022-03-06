@@ -14,6 +14,8 @@ I also enjoyed the challenge of coming up with the idea and implementing it from
 
 In the future I hope to:
 
+- Remove the unnecessary first submit button
+
 - Make the website responsive
 
 I sourced the very cute calculator icon from Flaticon. 
