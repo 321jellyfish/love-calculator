@@ -4,9 +4,9 @@ This project is a simple "Love Calculator" website. User's input their name and 
 
 This website is made with:
 
-*HTML
-*CSS
-*JavaScript
+-HTML
+-CSS
+-JavaScript
 
 
 Icon attribution:
