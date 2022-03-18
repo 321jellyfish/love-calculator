@@ -1,9 +1,7 @@
-
-const yourNameSubmit = document.querySelector('.yourNameSubmit');
-const crushNameSubmit = document.querySelector('.crushNameSubmit');
+const submitNames = document.querySelector('.submitNames');
 const equationResult = document.querySelector('#equationResult');
 
-crushNameSubmit.addEventListener("click", checkCompatibility);
+submitNames.addEventListener("click", checkCompatibility);
 
 let magicAlphabet = {
     a: 1,
