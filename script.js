@@ -1,8 +1,6 @@
 const submitNames = document.querySelector('.submitNames');
 const equationResult = document.querySelector('#equationResult');
 
-submitNames.addEventListener("click", checkCompatibility);
-
 let magicAlphabet = {
     a: 1,
     b: 2,
@@ -32,6 +30,8 @@ let magicAlphabet = {
     z: 26
 }
 
+submitNames.addEventListener("click", checkCompatibility);
+
 function checkCompatibility(){
     let firstName = document.getElementById("yourNameField").value;
     let crushName = document.getElementById("crushNameField").value;
@@ -49,17 +49,13 @@ function checkCompatibility(){
             }
         }
     }
-    console.log(matchingLetters);
-    let magicNumberArray = matchingLetters.map(x => magicAlphabet[x]);
-    console.log(magicNumberArray);
 
+    let magicNumberArray = matchingLetters.map(x => magicAlphabet[x]);
+    
     const initialValue = 0;
     let sumOfMagicNumberArray = magicNumberArray.reduce(
         (a, b) => a + b, initialValue);
-    console.log(sumOfMagicNumberArray);
-
-    console.log(sumOfMagicNumberArray % 10);
-    
+   
     //return sumOfMagicNumberArray;
     if ((sumOfMagicNumberArray % 10 >= 0)&&(sumOfMagicNumberArray % 10 < 4)){
         equationResult.textContent = "100% Perfect match! ❤️";
