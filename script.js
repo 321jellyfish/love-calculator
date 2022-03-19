@@ -57,12 +57,16 @@ function checkCompatibility(){
     let sumOfMagicNumberArray = magicNumberArray.reduce(
         (a, b) => a + b, initialValue);
     console.log(sumOfMagicNumberArray);
+
+    console.log(sumOfMagicNumberArray % 10);
     
     //return sumOfMagicNumberArray;
-    if ((sumOfMagicNumberArray % 10 > 0)&&(sumOfMagicNumberArray % 10 < 4)){
+    if ((sumOfMagicNumberArray % 10 >= 0)&&(sumOfMagicNumberArray % 10 < 4)){
         equationResult.textContent = "100% Perfect match! ❤️";
-    } else {
-        equationResult.textContent = "Not too sure...";
+    } else if ((sumOfMagicNumberArray % 10 > 3)&&(sumOfMagicNumberArray % 10 < 7)){
+        equationResult.textContent = "Quite a good match";
+    } else if ((sumOfMagicNumberArray % 10 > 6)&&(sumOfMagicNumberArray % 10 < 10)){
+        equationResult.textContent = "Not too sure..."
     }
 
 }
