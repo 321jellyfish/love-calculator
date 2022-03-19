@@ -5,11 +5,14 @@ body {
 
 .operator {
     font-size:xx-large;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 img {
     margin: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 2em;
 }
 
+button {
+    margin: 1em;
+}
