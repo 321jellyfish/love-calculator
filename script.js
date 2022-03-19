@@ -44,7 +44,7 @@ function checkCompatibility(){
 
     for(let i = 0; i < firstName.length; i++){
         for(let j = 0; j < crushName.length; j++){
-            if(firstName[i] === crushName[j]){
+            if((firstName[i] !== " ")&&(firstName[i] === crushName[j])){
                 matchingLetters.push(firstName[i]);
             }
         }
