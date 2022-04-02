@@ -3,11 +3,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.operator {
-    font-size:xx-large;
-    margin: 0em;
-}
-
 img {
     margin: 1%;
     margin-top: 2em;
@@ -27,11 +22,17 @@ h1 {
 }
 
 .yourNameField {
-    margin-left: 1.5%;
+    position: relative;
+    left: 3px;
 }
 
 footer {
     padding-top: 50px;
+}
+
+.operator {
+    font-size:xx-large;
+    margin: 0em;
 }
 
 footer a {
