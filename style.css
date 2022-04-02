@@ -30,3 +30,11 @@ h1 {
     margin-left: 1.5%;
 }
 
+footer {
+    padding-top: 50px;
+}
+
+footer a {
+    color: black;
+    font-size: small;
+}
